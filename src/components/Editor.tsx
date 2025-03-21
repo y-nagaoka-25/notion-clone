@@ -1,7 +1,7 @@
 import { locales } from '@blocknote/core';
 import { useCreateBlockNote } from '@blocknote/react';
 import '@blocknote/mantine/style.css';
-import { BlockNoteView, lightDefaultTheme } from '@blocknote/mantine';
+import { BlockNoteView } from '@blocknote/mantine';
 
 interface EditorProps {
   onChange: (value: string) => void;
